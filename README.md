@@ -50,6 +50,12 @@
   </tr>
 </table>
 
+## Publications
+
+- Hwang Y, Kim J, **Ko JB**, Han Y, Kim Y, Lee KH, Jang S. **From affinity to kinetics: SPR as the analytical backbone of AI-driven drug discovery.** *TrAC Trends in Analytical Chemistry* 204, 119089 (2026). [doi:10.1016/j.trac.2026.119089](https://doi.org/10.1016/j.trac.2026.119089)
+
+<sub>Full list on <a href="https://orcid.org/0009-0002-8630-1973">ORCID</a>.</sub>
+
 ## Stack
 
 <table>
