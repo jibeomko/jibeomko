@@ -21,8 +21,8 @@
 
 | Stage | What I work on | Tools |
 |---|---|---|
-| Data | Full-length cDNA from tumor and normal tissue, paired with short-read RNA-seq | PacBio Iso-Seq (Revio) · Illumina |
-| Alignment | Spliced alignment and how each aligner places splice-junction coordinates | minimap2 · deSALT · uLTRA |
+| Data | Full-length cDNA libraries, paired with short-read RNA-seq | PacBio Iso-Seq (Revio) · Illumina |
+| Alignment | Spliced alignment of long reads | minimap2 · deSALT · uLTRA |
 | Isoform calling | Several callers on the same reads, merged by intron chain | FLAIR · IsoQuant · Bambu · ESPRESSO · TALON · TAMA |
 | QC & curation | Structural categories, artifact screening, simulated truth sets | SQANTI3 · SQANTI-SIM · PanIsoGuard |
 | Usage & consequence | Differential transcript usage, isoform switches, ORF changes | DRIMSeq · Salmon · ORFanage |
@@ -95,7 +95,7 @@
 
 | Area | Methods & tools |
 |---|---|
-| Wet lab | Organoid culture · RT-PCR · qPCR · gel densitometry · western blot, on patient and mouse tissue |
+| Wet lab | RT-PCR · qPCR · western blot · IHC · ELISA · cell culture & transfection · organoid culture |
 | Expression & single-cell | DESeq2 · DEXSeq · Seurat · scvi-tools · CellChat · BayesPrism |
 | Proteomics | FragPipe (DDA / DIA) · DEqMS |
 | Statistical genetics | Mendelian randomization (TwoSampleMR) · colocalization (coloc) |
@@ -105,6 +105,14 @@
 ## At the bench
 
 Techniques I run myself, drawn as schematics.
+
+<p align="center">
+  <img src="assets/bench.svg" width="100%" alt="Bench techniques: isoform-specific RT-PCR, qPCR, western blot, IHC, ELISA, transfection, organoid culture.">
+</p>
+
+<details>
+<summary>Step-by-step workflows</summary>
+<br>
 
 <p align="center">
   <img src="assets/rt-pcr.svg" width="100%" alt="Isoform-specific RT-PCR schematic: RNA, cDNA, junction-spanning primers, agarose gel, densitometry.">
@@ -133,3 +141,5 @@ Techniques I run myself, drawn as schematics.
 <p align="center">
   <img src="assets/organoid.svg" width="100%" alt="Organoid culture schematic: tissue, single cells, Matrigel dome, organoids, then qPCR, western blot and RNA-seq readouts.">
 </p>
+
+</details>
