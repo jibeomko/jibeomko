@@ -11,7 +11,7 @@
 ## About
 
 - **Focus:** long-read RNA-seq and isoform analysis — which isoforms are real, which ones switch between conditions, and what the switch does to the protein.
-- **Dry + wet:** I run the analysis, then test the candidates at the bench myself with isoform-specific RT-PCR, qPCR and western blot.
+- **Dry + wet:** I run the analysis, then test the candidates at the bench myself with isoform-specific RT-PCR, qPCR, western blot and organoid culture.
 - **Tools:** when an analysis step keeps being trusted on faith, I turn it into a tool that records its evidence and says when the evidence is not enough.
 - **Also:** cancer multi-omics — single-cell atlases and tissue-to-serum biomarkers.
 
@@ -27,6 +27,12 @@
 | QC & curation | Structural categories, artifact screening, simulated truth sets | SQANTI3 · SQANTI-SIM · PanIsoGuard |
 | Usage & consequence | Differential transcript usage, isoform switches, ORF changes | DRIMSeq · Salmon · ORFanage |
 | Bench | Isoform-specific RT-PCR with gel densitometry, western blot for the protein products | RT-PCR · qPCR · western blot |
+
+## At the bench
+
+<p align="center">
+  <img src="assets/organoid.svg" width="100%" alt="Organoid culture schematic: tissue, single cells, Matrigel dome, organoids, then qPCR, western blot and RNA-seq readouts.">
+</p>
 
 ## Tools & packages
 
@@ -95,7 +101,7 @@
 
 | Area | Methods & tools |
 |---|---|
-| Wet lab | RT-PCR · qPCR · gel densitometry · western blot, on patient and mouse tissue |
+| Wet lab | Organoid culture · RT-PCR · qPCR · gel densitometry · western blot, on patient and mouse tissue |
 | Expression & single-cell | DESeq2 · DEXSeq · Seurat · scvi-tools · CellChat · BayesPrism |
 | Proteomics | FragPipe (DDA / DIA) · DEqMS |
 | Statistical genetics | Mendelian randomization (TwoSampleMR) · colocalization (coloc) |
