@@ -28,12 +28,6 @@
 | Usage & consequence | Differential transcript usage, isoform switches, ORF changes | DRIMSeq · Salmon · ORFanage |
 | Bench | Isoform-specific RT-PCR with gel densitometry, western blot for the protein products | RT-PCR · qPCR · western blot |
 
-## At the bench
-
-<p align="center">
-  <img src="assets/organoid.svg" width="100%" alt="Organoid culture schematic: tissue, single cells, Matrigel dome, organoids, then qPCR, western blot and RNA-seq readouts.">
-</p>
-
 ## Tools & packages
 
 <table>
@@ -72,9 +66,9 @@
 
 ## Publications
 
-- Hwang Y, Kim J, **Ko JB**, Han Y, Kim Y, Lee KH, Jang S. **From affinity to kinetics: SPR as the analytical backbone of AI-driven drug discovery.** *TrAC Trends in Analytical Chemistry* 204, 119089 (2026). [doi:10.1016/j.trac.2026.119089](https://doi.org/10.1016/j.trac.2026.119089)
+- Hwang Y<sup>†</sup>, Kim J<sup>†</sup>, **Ko JB**<sup>†</sup>, Han Y, Kim Y, Lee KH<sup>\*</sup>, Jang S<sup>\*</sup>. **From affinity to kinetics: SPR as the analytical backbone of AI-driven drug discovery.** *TrAC Trends in Analytical Chemistry* 204, 119089 (2026). [doi:10.1016/j.trac.2026.119089](https://doi.org/10.1016/j.trac.2026.119089)
 
-<sub>Full list on <a href="https://orcid.org/0009-0002-8630-1973">ORCID</a>.</sub>
+<sub><sup>†</sup> Co-first authors (equal contribution) · <sup>*</sup> Corresponding authors · Full list on <a href="https://orcid.org/0009-0002-8630-1973">ORCID</a>.</sub>
 
 ## Stack
 
@@ -107,3 +101,9 @@
 | Statistical genetics | Mendelian randomization (TwoSampleMR) · colocalization (coloc) |
 | Structure | AlphaFold 3 · Boltz · Chai-1 · molecular docking |
 | Workflows | Snakemake · Nextflow · conda / bioconda · Docker |
+
+## At the bench
+
+<p align="center">
+  <img src="assets/organoid.svg" width="70%" alt="Organoid culture schematic: tissue, single cells, Matrigel dome, organoids, then qPCR, western blot and RNA-seq readouts.">
+</p>
