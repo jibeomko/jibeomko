@@ -45,7 +45,7 @@
     <text class="mono" x="64" y="88" font-size="14" fill="#7d8590">jibeomko@kist<tspan fill="#484f58">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#484f58">$</tspan> whoami <tspan class="cursor" fill="#2dd4bf">▍</tspan></text>
     <text x="63" y="140" font-size="42" font-weight="700" fill="#e6edf3" letter-spacing="-.5">Jibeom Ko</text>
     <text x="64" y="180" font-size="21" font-weight="600" fill="#c9d1d9">Long-read RNA-seq  ·  isoform analysis</text>
-    <text x="64" y="208" font-size="16" fill="#8b949e">KIST, Seoul</text>
+    <text x="64" y="208" font-size="16" fill="#8b949e">Computational &amp; experimental biologist  ·  KIST, Seoul</text>
     <text x="64" y="250" font-size="17" fill="#c9d1d9">Isoforms found in long reads, <tspan fill="#2dd4bf">then tested at the bench.</tspan></text>
     <rect x="64" y="271" width="160" height="26" rx="13" fill="#58a6ff" fill-opacity=".1" stroke="#58a6ff" stroke-opacity=".45"/><circle cx="78" cy="284" r="4" fill="#58a6ff"/><text x="89" y="288.5" font-size="13" fill="#c9d1d9">long-read analysis</text>
     <rect x="234" y="271" width="122" height="26" rx="13" fill="#a371f7" fill-opacity=".1" stroke="#a371f7" stroke-opacity=".45"/><circle cx="248" cy="284" r="4" fill="#a371f7"/><text x="259" y="288.5" font-size="13" fill="#c9d1d9">tool building</text>

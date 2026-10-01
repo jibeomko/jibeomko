@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Jibeom Ko — long-read RNA-seq and isoform analysis at KIST, Seoul. Isoforms found in long reads, then tested at the bench.">
+  <img src="assets/hero.svg" width="100%" alt="Jibeom Ko — computational & experimental biologist at KIST, Seoul; long-read RNA-seq and isoform analysis. Isoforms found in long reads, then tested at the bench.">
 </p>
 
 <p align="center">
