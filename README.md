@@ -104,6 +104,20 @@
 
 ## At the bench
 
+Techniques I run myself, drawn as schematics.
+
 <p align="center">
-  <img src="assets/organoid.svg" width="70%" alt="Organoid culture schematic: tissue, single cells, Matrigel dome, organoids, then qPCR, western blot and RNA-seq readouts.">
+  <img src="assets/rt-pcr.svg" width="100%" alt="Isoform-specific RT-PCR schematic: RNA, cDNA, junction-spanning primers, agarose gel, densitometry.">
+</p>
+
+<p align="center">
+  <img src="assets/qpcr.svg" width="100%" alt="qPCR schematic: reaction mix, plate setup, thermal cycling, amplification curves, delta-delta Ct.">
+</p>
+
+<p align="center">
+  <img src="assets/western.svg" width="100%" alt="Western blot schematic: lysate, SDS-PAGE, transfer, immunoblotting, ECL detection.">
+</p>
+
+<p align="center">
+  <img src="assets/organoid.svg" width="100%" alt="Organoid culture schematic: tissue, single cells, Matrigel dome, organoids, then qPCR, western blot and RNA-seq readouts.">
 </p>
