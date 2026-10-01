@@ -119,5 +119,17 @@ Techniques I run myself, drawn as schematics.
 </p>
 
 <p align="center">
+  <img src="assets/ihc.svg" width="100%" alt="Immunohistochemistry schematic: FFPE block, sectioning, antigen retrieval, staining with HRP polymer and DAB, brightfield imaging.">
+</p>
+
+<p align="center">
+  <img src="assets/elisa.svg" width="100%" alt="ELISA schematic: capture antibody, sample, HRP detection antibody, TMB substrate, standard curve.">
+</p>
+
+<p align="center">
+  <img src="assets/transfection.svg" width="100%" alt="Cell culture and transfection schematic: flask, 6-well plate, siRNA or plasmid lipid complex, uptake, knockdown readout.">
+</p>
+
+<p align="center">
   <img src="assets/organoid.svg" width="100%" alt="Organoid culture schematic: tissue, single cells, Matrigel dome, organoids, then qPCR, western blot and RNA-seq readouts.">
 </p>
