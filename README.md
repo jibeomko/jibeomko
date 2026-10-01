@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Jibeom Ko — computational biology at KIST, Seoul. I build bioinformatics tools that show their evidence.">
+  <img src="assets/hero.svg" width="100%" alt="Jibeom Ko — long-read RNA-seq and isoform analysis at KIST, Seoul. Isoforms found in long reads, then tested at the bench.">
 </p>
 
 <p align="center">
@@ -10,9 +10,23 @@
 
 ## About
 
-- **Research:** cancer multi-omics — long-read transcriptomics, single-cell atlases and tissue-to-serum biomarkers.
+- **Focus:** long-read RNA-seq and isoform analysis — which isoforms are real, which ones switch between conditions, and what the switch does to the protein.
+- **Dry + wet:** I run the analysis, then test the candidates at the bench myself with isoform-specific RT-PCR, qPCR and western blot.
 - **Tools:** when an analysis step keeps being trusted on faith, I turn it into a tool that records its evidence and says when the evidence is not enough.
-- **Notes:** before relying on a method, I recompute it by hand and write down where the textbook and the software disagree.
+- **Also:** cancer multi-omics — single-cell atlases and tissue-to-serum biomarkers.
+
+## Long-read RNA-seq, end to end
+
+**reads → alignment → isoform calling → QC & curation → usage & consequence → bench**
+
+| Stage | What I work on | Tools |
+|---|---|---|
+| Data | Full-length cDNA from tumor and normal tissue, paired with short-read RNA-seq | PacBio Iso-Seq (Revio) · Illumina |
+| Alignment | Spliced alignment and how each aligner places splice-junction coordinates | minimap2 · deSALT · uLTRA |
+| Isoform calling | Several callers on the same reads, merged by intron chain | FLAIR · IsoQuant · Bambu · ESPRESSO · TALON · TAMA |
+| QC & curation | Structural categories, artifact screening, simulated truth sets | SQANTI3 · SQANTI-SIM · PanIsoGuard |
+| Usage & consequence | Differential transcript usage, isoform switches, ORF changes | DRIMSeq · Salmon · ORFanage |
+| Bench | Isoform-specific RT-PCR with gel densitometry, western blot for the protein products | RT-PCR · qPCR · western blot |
 
 ## Tools & packages
 
@@ -77,11 +91,11 @@
   </tr>
 </table>
 
-## Research toolkit
+## Beyond long reads
 
 | Area | Methods & tools |
 |---|---|
-| Long-read transcriptomics | PacBio HiFi · ONT · minimap2 · SQANTI3 · IsoQuant · FLAIR · Bambu · ESPRESSO · TALON |
+| Wet lab | RT-PCR · qPCR · gel densitometry · western blot, on patient and mouse tissue |
 | Expression & single-cell | DESeq2 · DEXSeq · Seurat · scvi-tools · CellChat · BayesPrism |
 | Proteomics | FragPipe (DDA / DIA) · DEqMS |
 | Statistical genetics | Mendelian randomization (TwoSampleMR) · colocalization (coloc) |
